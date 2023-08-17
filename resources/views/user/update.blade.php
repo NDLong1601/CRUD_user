@@ -8,7 +8,6 @@
 </head>
 <body>
     <h2>Create user</h2>
-    {{-- dd($id); --}}
     <form action="{{route('update',[$user->id])}}" method="post">
         @csrf
         <label for="Name">
